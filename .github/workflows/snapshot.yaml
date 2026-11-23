@@ -15,9 +15,9 @@ jobs:
       # Load the system.json manifest into memory
       - name: Load system manifest
         id: manifest
-        uses: squidgy617/github-action-json-file-properties@266d764d4b7807210a1d04d077b897ac347e3bab
-        with:
-          file_path: "./system.json"
+        run: |
+          echo "version=$(jq -r '.version' ./system.json)" >> "$GITHUB_OUTPUT"
+          echo "download=$(jq -r '.download' ./system.json)" >> "$GITHUB_OUTPUT"
 
       # Set up our some variables for future use
       # Adapted from https://github.community/t/how-to-get-just-the-tag-name/16241/7
