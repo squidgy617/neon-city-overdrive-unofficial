@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 13.1.0
+
+### Added
+- Edges can be toggled "off" to just be triggers
+
 ## 13.0.3
 
 ### Fixed

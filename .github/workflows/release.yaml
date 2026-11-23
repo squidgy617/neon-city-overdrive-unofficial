@@ -15,7 +15,7 @@ jobs:
       # Load the system.json manifest into memory
       - name: Load system manifest
         id: manifest
-        uses: neovatar/github-action-json-file-properties@266d764d4b7807210a1d04d077b897ac347e3bab
+        uses: squidgy617/github-action-json-file-properties@266d764d4b7807210a1d04d077b897ac347e3bab
         with:
           file_path: "./system.json"
 

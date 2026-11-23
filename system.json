@@ -6,6 +6,10 @@
     {
       "name": "neovatar",
       "discord": "neovatar"
+    },
+    {
+      "name": "squidgy617",
+      "discord": "squidgy617"
     }
   ],
   "documentTypes": {
@@ -47,10 +51,10 @@
       "paths": ["css", "lang", "templates"]
     }
   },
-  "url": "https://github.com/neovatar/neon-city-overdrive-unofficial",
+  "url": "https://github.com/squidgy617/neon-city-overdrive-unofficial",
   "license": "LICENSE.md",
   "readme": "README.md",
-  "bugs": "https://github.com/neovatar/neon-city-overdrive-unofficial/issues",
+  "bugs": "https://github.com/squidgy617/neon-city-overdrive-unofficial/issues",
   "changelog": "CHANGELOG.md",
   "media": [
     {
@@ -59,7 +63,7 @@
       "thumbnail": "systems/neon-city-overdrive-unofficial/assets/ncou-setup.webp"
     }
   ],
-  "version": "13.0.3",
+  "version": "13.1.0",
   "compatibility": {
     "minimum": "13.348",
     "verified": "13.348"
@@ -76,8 +80,8 @@
   "packs": [],
   "packFolders": [],
   "socket": false,
-  "manifest": "https://github.com/neovatar/neon-city-overdrive-unofficial/releases/latest/download/system.json",
-  "download": "https://github.com/neovatar/neon-city-overdrive-unofficial/releases/download/release-13.0.3/ncou.zip",
+  "manifest": "https://github.com/squidgy617/neon-city-overdrive-unofficial/releases/latest/download/system.json",
+  "download": "https://github.com/squidgy617/neon-city-overdrive-unofficial/releases/download/release-13.1.0/ncou.zip",
   "background": "systems/neon-city-overdrive-unofficial/assets/ncou-setup.webp",
   "grid": {
     "type": 1,
